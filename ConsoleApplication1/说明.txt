@@ -1,0 +1,5 @@
+Çë¿´CLR via C# in 2.4
+
+csc /t:module Class1.cs
+
+csc /out:JeffTypes.dll /t:library /addmodule:Class1.netmodule Class2.cs

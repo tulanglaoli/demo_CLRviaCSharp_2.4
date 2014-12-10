@@ -1,0 +1,4 @@
+2.4.2 
+csc /t:module Class1.cs
+csc /t:module Class2.cs
+al /out:JeffTypes.dll /t:library Class1.netmodule Class2.netmodule
